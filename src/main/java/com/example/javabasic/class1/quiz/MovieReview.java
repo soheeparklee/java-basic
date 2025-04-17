@@ -1,4 +1,4 @@
-package com.example.javabasic.class1;
+package com.example.javabasic.class1.quiz;
 
 public class MovieReview {
     String title;

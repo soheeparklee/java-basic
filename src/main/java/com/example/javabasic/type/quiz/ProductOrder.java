@@ -1,4 +1,4 @@
-package com.example.javabasic.class1;
+package com.example.javabasic.type.quiz;
 
 public class ProductOrder {
     String productName;
