@@ -1,7 +1,5 @@
 package com.example.javabasic.class1.quiz;
 
-import com.example.javabasic.class1.quiz.ProductOrder;
-
 public class ProductOrderMain {
     public static void main(String[] args) {
         ProductOrder productOrder1 = new ProductOrder();
