@@ -6,8 +6,6 @@ public class studentMain2 {
 
         printStudent(student1);
         printStudent(student2);
-
-
     }
 
     static Student createStudent(String name, int age, int grade){
