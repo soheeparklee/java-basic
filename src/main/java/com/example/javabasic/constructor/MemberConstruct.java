@@ -5,10 +5,13 @@ public class MemberConstruct {
     int age;
     int grade;
 
-    MemberConstruct(String name, int age, int grade){ //constuctor name == class name
-        System.out.println("name: "+ name + " age: "+ age+ " grade: " + grade);
+    MemberConstruct(String name, int age, int grade){
         this.name = name;
         this.age = age;
         this.grade = grade;
+    }
+
+    MemberConstruct(String name, int age){
+        this(name, age, 0);
     }
 }
