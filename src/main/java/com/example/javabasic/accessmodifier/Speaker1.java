@@ -1,9 +1,9 @@
 package com.example.javabasic.accessmodifier;
 
-public class Speaker {
+public class Speaker1 {
     int volume;
 
-    Speaker(int volume){
+    Speaker1(int volume){
         this.volume = volume;
     }
 

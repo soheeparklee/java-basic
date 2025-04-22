@@ -1,9 +1,9 @@
 package com.example.javabasic.accessmodifier;
 
-public class SpeakerMain1 {
+public class SpeakerMain2 {
 
     public static void main(String[] args) {
-        Speaker1 speaker = new Speaker1(90);
+        Speaker2 speaker = new Speaker2(90);
         speaker.showVolume();
 
         speaker.volumeUp();
@@ -13,7 +13,7 @@ public class SpeakerMain1 {
         speaker.showVolume();
 
         System.out.println(" ----- volume field modified ----- ");
-        speaker.volume = 200;
+        //speaker.volume = 200; //🔴 cannot access speaker.volume
         speaker.showVolume();
 
     }
