@@ -6,6 +6,7 @@ public class CarMain {
         ElectricCar electricCar = new ElectricCar();
         electricCar.move();
         electricCar.charge();
+        electricCar.openDoor();
 
         GasCar gasCar = new GasCar();
         gasCar.move();
@@ -14,6 +15,10 @@ public class CarMain {
         Car car = new Car();
         car.move();
         //car.charge();
+
+        HydroCar hydroCar = new HydroCar();
+        hydroCar.openDoor();
+        hydroCar.fillHydrogen();
 
     }
 
