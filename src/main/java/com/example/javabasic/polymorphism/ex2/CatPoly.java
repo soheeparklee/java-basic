@@ -1,4 +1,4 @@
-package com.example.javabasic.polymorphism.ex1;
+package com.example.javabasic.polymorphism.ex2;
 
 public class CatPoly extends Animal{
     @Override
