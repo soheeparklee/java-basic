@@ -10,5 +10,8 @@ public class CastingMain1 {
         //poly type: parent
         //childPoly type: child
 
+        Parent downPolyTemp = new Child();
+        ((Child) downPolyTemp).childMethod(); //temporal downcasting
+
     }
 }
