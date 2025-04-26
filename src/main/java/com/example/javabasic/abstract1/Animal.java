@@ -7,9 +7,7 @@ public abstract class Animal {
     //abstract method has no body(will be overrided by child class)
     //parent class: 메소드를 정의만 하고
 
-    public void move(){
-        System.out.println("animal is moving");
-    }
+    public abstract void move();
     //not abstract method
     //override not mandatory
 }

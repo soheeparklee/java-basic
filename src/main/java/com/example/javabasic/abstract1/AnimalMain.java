@@ -20,7 +20,7 @@ public class AnimalMain {
 
     private static void soundAnimal(Animal animal) {
         System.out.println("=====start=====");
-        animal.sound();
+        animal.move();
         System.out.println("=====end=====");
     }
 }
